@@ -12,7 +12,7 @@ class Student
   end
 
   def self.new_from_db(row)
-    self.new(*row)
+    new(*row)
   end
 
   def self.all
