@@ -12,7 +12,6 @@ class Student
   end
 
   def self.new_from_db(row)
-    binding.pry
     x = self.new(row)
     x.id = row[0]
     x.name =  row[1]
