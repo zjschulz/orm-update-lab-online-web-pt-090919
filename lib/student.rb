@@ -13,7 +13,6 @@ class Student
 
   def self.new_from_db(row)
     x = self.new(row[0], row[1], row[2])
-    x
   end
 
   def self.all
